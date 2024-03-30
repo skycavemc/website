@@ -1,10 +1,10 @@
 {
-    "STR_Test": {
-        "Original": "This is a Test",
-        "DE": "Das ist ein Test"
+    "STR_Header": {
+        "Original": "Welcome to Skycave!",
+        "DE": "Willkommen auf Skycave!"
     },
-    "STR_Hello": {
-        "Original": "Hello",
+    "STR_Text": {
+        "Original": "hello",
         "DE": "Hallo"
     }
 }

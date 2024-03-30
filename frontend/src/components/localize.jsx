@@ -6,7 +6,7 @@ function Localize({ str }) {
 
     useEffect(() => {
         const languageTag = navigator.language;
-        const languageCode = languageTag.split('-')[1]; // Extrahiere den Sprachcode
+        const languageCode = languageTag.split('-')[1]; 
 
 
         if (stringtable && stringtable[str] && stringtable[str][languageCode]) {
@@ -19,7 +19,7 @@ function Localize({ str }) {
         }
     }, [str]);
 
-    // Das gerenderte Ergebnis ist die lokalisierte Zeichenfolge, die im State gespeichert ist
+    
     return data;
 }
 

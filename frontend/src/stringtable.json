@@ -1,0 +1,10 @@
+{
+    "STR_Test": {
+        "Original": "This is a Test",
+        "DE": "Das ist ein Test"
+    },
+    "STR_Hello": {
+        "Original": "Hello",
+        "DE": "Hallo"
+    }
+}

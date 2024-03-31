@@ -1,3 +1,9 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +11,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url("https://pbs.twimg.com/media/FM_je0TXsAUAjoX.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-skycave {
+    background-color: #083856;
+    color: #FFFFFF;
+  }
+  .text-skycave {
+    color: #FFFFFF;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-image: url("https://www.magneticmag.com/.image/t_share/MTkyMzM5MjI0NzU2NzU3NzQ2/minecraft-desktop-wallpaper.webp");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-skycave {
+    background-color: #73A9D9;
+    color: #0A0A0A;
+  }
+  .text-skycave {
+    color: #0A0A0A;
+  }
 }
 
 code {
